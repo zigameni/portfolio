@@ -1,0 +1,97 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color: white;
+}
+
+
+.hero{
+    background-color: #360000;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 80px;
+    margin: 30px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+li {
+    width: 200px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+h1{
+    font-size: 90px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text{
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: #f50000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: #c57979;
+}
+
+.button:active{
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+.socials{
+    padding-bottom:200px;
+}
+
+.social{
+    margin:20px;
+}
+
+
