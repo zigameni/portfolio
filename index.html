@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Font script -->
-    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a73f43978c.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <title>Portfolio</title>
 </head>
@@ -16,13 +16,16 @@
 
         <!-- Navigaion bar -->
         <nav>
-            <img class="logo" src="res/logo-w.png" alt="Gazmend Shehu's logo">
-            <ul>
-                <li>About me</li>
-                <li>Projects</li>
-                <li>Contact me</li>
+            <img class="logo" src="src/images/logo-w.png" alt="Gazmend Shehu's logo">
+            <ul id="nav-list">
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact</a></li>
             </ul>
 
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
 
         <div class="hero-area">
@@ -57,10 +60,58 @@
     </section>
 
     <!-- About me section -->
-    <section></section>
+    <section class="sub-section" id="about-me">
+        <div class="information">
+            <h2>About me</h2>
+            <p class="intro">Hello. My name is Gazmend Shehu. I am a Software Engineering student. </p>
+        </div>
+        <div class="headshot-container">
+            <img src="src/images/headshot.JPG" alt="Headshot" class="headshot">
+        </div>
+        
+
+    </section>
+
 
     <!-- Projects section -->
-    <section></section>
+    <section class="sub-section-alternative" id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="src/images/project1.JPG" alt="Enter music festival" class="project-image"/>
+                <h3>ENTER Music Festival</h3>
+                <p>This is a PHP project. It is a music festival organizer. This was a group project.</p>
+                <hr/>
+                <p class="subtext"><a href="https://github.com/zigameni/ENTER-Projekat" class="project-link">View here</a></p>
+            </div>
+            <div class="project-card">
+                <img src="src/images/project2.JPG" alt="Santorini board game." class="project-image"/>
+                <h3>Santorini board game</h3>
+                <p>Santorini is a board, strategy game. It was build using Java. With an AI player.</p>
+                <hr/>
+                <p class="subtext"><a href="https://github.com/zigameni/IS_Santorini_Java" class="project-link">View here</a></p>
+            </div>
+
+
+            <div class="project-card">
+                <img src="src/images/project1.JPG" alt="Enter music festival" class="project-image"/>
+                <h3>ENTER Music Festival</h3>
+                <p>This is a PHP project. It is a music festival organizer. This was a group project.</p>
+                <hr/>
+                <p class="subtext"><a href="https://github.com/zigameni/ENTER-Projekat" class="project-link">View here</a></p>
+            </div>
+            <div class="project-card">
+                <img src="src/images/project2.JPG" alt="Santorini board game." class="project-image"/>
+                <h3>Santorini board game</h3>
+                <p>Santorini is a board, strategy game. It was build using Java. With an AI player.</p>
+                <hr/>
+                <p class="subtext"><a href="https://github.com/zigameni/IS_Santorini_Java" class="project-link">View here</a></p>
+            </div>
+        </div>
+
+    </section>
+
+    
 
     <footer id="contact-me">
         <h2>Contact me</h2>
@@ -68,6 +119,6 @@
     </footer>
 
 
-  <script src="app.js"></script>
+  <script src="src/app.js"></script>
 </body>
 </html>
